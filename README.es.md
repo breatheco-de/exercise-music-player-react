@@ -6,7 +6,8 @@ Los botones siempre deben permanecer en la parte inferior de la ventana gráfica
 Solo necesita implementar los botones Reproducir, Pausa, Siguiente y anterior.
 
 
-## Requerimientos
+## Recomendaciones de implementación
+
 - Listar las canciones de [esta API](http://assets.breatheco.de/apis/sound/)utilizando la función de fetch.
 - Cuando el usuario hace clic en una canción, el player (reproductor) debe comenzar a reproducirla.
 - Cuando el usuario hace clic en el botón "siguiente", el reproductor debe comenzar a reproducir la siguiente canción de la lista, si no hay una canción siguiente, debe comenzar nuevamente tocando la primera canción de la lista, lo mismo se aplica a la "anterior" botón.
