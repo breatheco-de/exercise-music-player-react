@@ -5,6 +5,16 @@ Let's create a MP3 player that works similar to Spotify ![Todo List](https://git
 The buttons should always remain at the bottom of the viewport (use position fixed for that).
 You only need to implement the Play, Pause, Next and previous buttons.
 
+## 🌱  How to start this project
+
+This project comes with the necessary files to start working, but you have two options to start:
+
+a) Use gitpod: open this link in your browser to clone it with gitpod: https://gitpod.io#https://github.com/breatheco-de/exercise-music-player-react.git
+
+b) You can clone this repository on your local computer:
+```sh
+$ git clone https://github.com/breatheco-de/exercise-music-player-react.git
+
 ## 📝 Requirements
 - List the songs from [the Sounds API](http://assets.breatheco.de/apis/sound/) using the Fetch API.
 - When the user clicks on a song, the player it must start playing it.
