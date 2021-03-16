@@ -14,6 +14,7 @@ a) Use gitpod: open this link in your browser to clone it with gitpod: https://g
 b) You can clone this repository on your local computer:
 ```sh
 $ git clone https://github.com/breatheco-de/exercise-music-player-react.git
+```
 
 ## 📝 Requirements
 - List the songs from [the Sounds API](http://assets.breatheco.de/apis/sound/) using the Fetch API.
