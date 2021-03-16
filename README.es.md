@@ -7,14 +7,14 @@ Vamos a crear un reproductor de MP3 que funciona de manera similar a Spotify, ![
 
 ## 🌱  Cómo empezar este proyecto
 
-Este proyecto viene con los archivos necesarios para trabajar, pero puedes empezar de dos formas:
+No clones este repositorio.
 
-a) Use gitpod: open this link in your browser to clone it with gitpod: https://gitpod.io#https://github.com/breatheco-de/exercise-music-player-react.git
+El primer pasa para empezar a codificar es clonar la [plantilla de react.js](https://github.com/4GeeksAcademy/react-hello) en gitpod o localmente en tu computador.
 
-b) You can clone this repository on your local computer:
-```sh
-$ git clone https://github.com/breatheco-de/exercise-music-player-react.git
-```
+a) Si estas usando Gitpod puedes clonar la plantilla haciendo [clic aqui](https://gitpod.io#https://github.com/4GeeksAcademy/react-hello).
+b) Si estas trabajando localmente escribe el siguiente comando en tu terminal: `git clone https://github.com/4GeeksAcademy/react-hello`
+
+💡 Importante: Recuerda crear un nuevo repositorio en tu github y actualizar el remote para poder subir tus cambios a github.
 
 ## 📝 Requisitos:
 
