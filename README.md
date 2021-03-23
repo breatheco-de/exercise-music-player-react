@@ -14,7 +14,7 @@ The first step to start coding is cloning the [react.js boilerplate](https://git
 a) If using Gitpod you can clone the boilerplate by [clicking here](https://gitpod.io#https://github.com/4GeeksAcademy/react-hello).
 b) If working locally type the following command from your command line: `git clone https://github.com/4GeeksAcademy/react-hello`.
 
-💡 Important: Remember to create a new repository, update the remote, and upload the code to your new repository.
+💡 Important: Remember to create a new repository, update the remote (`git remote set-url <your new url>`), and upload the code to your new repository using `add`, `commit` and `push`.
 
 ## 📝 Requirements
 - List the songs from [the Sounds API](http://assets.breatheco.de/apis/sound/) using the Fetch API.
