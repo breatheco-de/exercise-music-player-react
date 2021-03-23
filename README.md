@@ -9,7 +9,7 @@ You only need to implement the Play, Pause, Next and previous buttons.
 
 Do not clone this repository.
 
-The first step to start coding is cloning the [react.js boilerplate](https://github.com/4GeeksAcademy/react-hello) on your local computer or gitpod.
+The first step to start coding is cloning the [react.js boilerplate](https://github.com/4GeeksAcademy/react-hello) on your local computer or opening it using gitpod.
 
 a) If using Gitpod you can clone the boilerplate by [clicking here](https://gitpod.io#https://github.com/4GeeksAcademy/react-hello).
 b) If working locally type the following command from your command line: `git clone https://github.com/4GeeksAcademy/react-hello`.
