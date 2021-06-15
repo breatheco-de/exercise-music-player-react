@@ -4,7 +4,7 @@
 	"status": "published",
 	"translations": ["es", "us"],
 	"description" : "Use the audio tag to create your own music player",
-	"solution": "https://bitbucket.org/codingacademy/music-player-react",
+	"solution": "https://codesandbox.io/s/media-player-solution-tsnnv",
 	"preview": "https://github.com/breatheco-de/exercise-music-player-react/blob/master/thumb.png?raw=true",
 	"difficulty": "intermediate",
 	"technologies": ["react.js", "javascript"],
