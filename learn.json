@@ -10,6 +10,7 @@
 	"technologies": ["react.js", "javascript"],
 	"syntax": "react.js",
 	"duration" : 16,
+    "projectType": "project",
 	"talents": [
 		{ "badge": "tag-master", "points": 10 }
 	]
