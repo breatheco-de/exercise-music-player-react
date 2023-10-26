@@ -9,7 +9,7 @@ Vamos a crear un reproductor de MP3 que funciona de manera similar a Spotify, ![
 
 No clones este repositorio.
 
-El primer pasa para empezar a codificar es clonar la [plantilla de react.js](https://github.com/4GeeksAcademy/react-hello) en gitpod o localmente en tu computador.
+El primer paso para empezar a codificar es clonar la [plantilla de react.js](https://github.com/4GeeksAcademy/react-hello) en gitpod o localmente en tu computador.
 
 a) Si estas usando Gitpod puedes clonar la plantilla haciendo [clic aqui](https://gitpod.io#https://github.com/4GeeksAcademy/react-hello).
 b) Si estas trabajando localmente escribe el siguiente comando en tu terminal: `git clone https://github.com/4GeeksAcademy/react-hello`
