@@ -22,7 +22,7 @@ $ git clone https://github.com/4GeeksAcademy/react-hello
 
 ## 📝 Requirements
 
-- List the songs from [the Sounds API](http://assets.breatheco.de/apis/sound/) using the Fetch API.
+- List the songs from [the Sounds API](https://playground.4geeks.com/apis/fake/sound/) using the Fetch API.
 - When the user clicks on a song, the player it must start playing it.
 - When the user clicks on the "next" button the player should start playing the next song from the list, if there is no next song then it should start over by playing the first song of the list, the same applies for the "previous" button.
 - Use the react ref attribute to get the audio tag from the DOM.
