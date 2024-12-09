@@ -10,7 +10,7 @@
 	"technologies": ["react.js", "javascript"],
 	"syntax": "react.js",
 	"duration" : 16,
-	"template_url": "https://github.com/4GeeksAcademy/machine-learning-python-template",
+	"template_url": "https://github.com/4GeeksAcademy/react-hello",
     "projectType": "project",
 	"talents": [
 		{ "badge": "tag-master", "points": 10 }
