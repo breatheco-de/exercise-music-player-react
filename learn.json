@@ -11,6 +11,7 @@
 	"syntax": "react.js",
 	"duration" : 16,
 	"template_url": "https://github.com/4GeeksAcademy/react-hello",
+	"autoPlay": "false",
     "projectType": "project",
 	"talents": [
 		{ "badge": "tag-master", "points": 10 }
