@@ -17,7 +17,7 @@ We recommend opening the `react-hello` template, using a provisioning tool like 
 
 This is the repository you need to open or clone:
 
-```
+```sh
 $ git clone https://github.com/4GeeksAcademy/react-hello
 ```
 
