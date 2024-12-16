@@ -5,6 +5,8 @@ Vamos a crear un reproductor de MP3 que funciona de manera similar a Spotify, ![
 - Los botones siempre deben permanecer en la parte inferior de la ventana gráfica o viewport (usa la posición fija para eso).
 - Solo tienes que implementar los botones Reproducir, Pausa, Siguiente y anterior.
 
+<onlyfor saas="false" withBanner="false">
+  
 ## 🌱  Cómo empezar este proyecto
 
 No clones este repositorio.
@@ -15,6 +17,8 @@ a) Si estas usando Gitpod puedes clonar la plantilla haciendo [clic aqui](https:
 b) Si estas trabajando localmente escribe el siguiente comando en tu terminal: `git clone https://github.com/4GeeksAcademy/react-hello`
 
 💡 Importante: Recuerda crear un nuevo repositorio en tu github y actualizar el remote para poder subir tus cambios a github.
+
+</onlyfor>
 
 ## 📝 Requisitos:
 
