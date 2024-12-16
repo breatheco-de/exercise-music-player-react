@@ -1,4 +1,6 @@
+<!--hide-->
 # Music Player React
+<!--endhide-->
 
 Let's create a MP3 player that works similar to Spotify ![Todo List](https://github.com/breatheco-de/exercise-music-player-react/blob/master/preview.gif?raw=true).
 
