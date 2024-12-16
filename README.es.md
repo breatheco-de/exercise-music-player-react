@@ -10,13 +10,11 @@ Los botones siempre deben permanecer en la parte inferior de la ventana (usa `po
   
 ## 🌱 Cómo iniciar este proyecto
 
-No clones este repositorio.
+No clones este repositorio porque usaremos una plantilla diferente.  
 
-El primer paso para comenzar a programar es clonar el [boilerplate de React.js](https://github.com/4GeeksAcademy/react-hello) en tu computadora local o abrirlo usando Gitpod.
+Recomendamos abrir la plantilla `react-hello`, utilizando una herramienta de aprovisionamiento como [Codespaces](https://4geeks.com/lesson/what-is-github-codespaces) (recomendado) o [Gitpod](https://4geeks.com/lesson/how-to-use-gitpod). Alternativamente, puedes [clonar el repositorio de GitHub](https://4geeks.com/how-to/github-clone-repository) en tu computadora local utilizando el comando `git clone`.  
 
-a) Si usas Gitpod (recomendado), puedes clonar el boilerplate haciendo [clic aquí](https://gitpod.io#https://github.com/4GeeksAcademy/react-hello).
-
-b) Si trabajas localmente, escribe el siguiente comando en tu línea de comandos:
+Este es el repositorio que necesitas abrir o clonar:  
 
 ```sh
 $ git clone https://github.com/4GeeksAcademy/react-hello
