@@ -1,38 +1,43 @@
-# Music Player React
+<!--hide-->
+# Reproductor de Música en React
+<!--endhide-->
 
-Vamos a crear un reproductor de MP3 que funciona de manera similar a Spotify, ![Todo List](https://github.com/breatheco-de/exercise-music-player-react/blob/master/preview.gif?raw=true).
+Vamos a crear un reproductor de MP3 que funcione de manera similar a Spotify ![Todo List](https://github.com/breatheco-de/exercise-music-player-react/blob/master/preview.gif?raw=true).
 
-- Los botones siempre deben permanecer en la parte inferior de la ventana gráfica o viewport (usa la posición fija para eso).
-- Solo tienes que implementar los botones Reproducir, Pausa, Siguiente y anterior.
+Los botones siempre deben permanecer en la parte inferior de la ventana (usa `position: fixed` para lograrlo). Solo necesitas implementar los botones de Reproducir, Pausar, Siguiente y Anterior.
 
-## 🌱  Cómo empezar este proyecto
+<onlyfor saas="false" withBanner="false">
+  
+## 🌱 Cómo iniciar este proyecto
 
-No clones este repositorio.
+No clones este repositorio porque usaremos una plantilla diferente.  
 
-El primer pasa para empezar a codificar es clonar la [plantilla de react.js](https://github.com/4GeeksAcademy/react-hello) en gitpod o localmente en tu computador.
+Recomendamos abrir la plantilla `react-hello`, utilizando una herramienta de aprovisionamiento como [Codespaces](https://4geeks.com/lesson/what-is-github-codespaces) (recomendado) o [Gitpod](https://4geeks.com/lesson/how-to-use-gitpod). Alternativamente, puedes [clonar el repositorio de GitHub](https://4geeks.com/how-to/github-clone-repository) en tu computadora local utilizando el comando `git clone`.  
 
-a) Si estas usando Gitpod puedes clonar la plantilla haciendo [clic aqui](https://gitpod.io#https://github.com/4GeeksAcademy/react-hello).
-b) Si estas trabajando localmente escribe el siguiente comando en tu terminal: `git clone https://github.com/4GeeksAcademy/react-hello`
+Este es el repositorio que necesitas abrir o clonar:  
 
-💡 Importante: Recuerda crear un nuevo repositorio en tu github y actualizar el remote para poder subir tus cambios a github.
+```sh
+$ git clone https://github.com/4GeeksAcademy/react-hello
+```
 
-## 📝 Requisitos:
+💡 Importante: Recuerda crear un nuevo repositorio, actualizar el remoto (`git remote set-url origin <tu nueva url>`), y subir el código a tu nuevo repositorio utilizando `add`, `commit` y `push`.
 
-- Listar las canciones de [esta API](https://playground.4geeks.com/sound/docs) utilizando la Fetch API,
-- Cuando el usuario hace clic en una canción, el player (reproductor) debe comenzar a reproducirla.
-- Cuando el usuario hace clic en el botón "siguiente", el reproductor debe comenzar a reproducir la siguiente canción de la lista, si no hay una canción siguiente, debe comenzar     nuevamente a reproducir la primera canción de la lista, lo mismo aplica para el botón "anterior".
-- Usa el atributo reaccionar ref de react para obtener la etiqueta o tag de audio del DOM.
-- Asegurate de que haya una sola etiqueta o tag `<audio>` en todo el proyecto, usa `ref`para cambiar su src url.
 
-## Recomendaciones
-- Usa la funcion `useRef`.
-- No llames a la función setState porque perderá el estado de la etiqueta de audio si se llama a la función de render
+</onlyfor>
 
-## 😎 Te sientes con confianza?
+## 📝 Requisitos
 
-Los siguientes requerimientos no son necesarios para entregar la solucion pero puedes intentar realizarlos si tienes tiempo y te sientes con confianza.
+- Lista las canciones desde [la API de Sounds](https://playground.4geeks.com/sound/docs) usando la API Fetch.
+- Cuando el usuario haga clic en una canción, el reproductor debe comenzar a reproducirla.
+- Cuando el usuario haga clic en el botón "siguiente", el reproductor debe empezar a reproducir la siguiente canción de la lista. Si no hay más canciones, debe comenzar de nuevo reproduciendo la primera canción de la lista. Lo mismo aplica para el botón "anterior".
+- Usa el atributo `ref` de React para obtener la etiqueta `<audio>` del DOM.
+- Asegúrate de tener solo una etiqueta `<audio>` en todo el proyecto. Usa `ref` para cambiar su URL `src`.
 
-+1 Implementa control de volumen": dos botones, uno para subir y otro para bajar el volumen.
-+1 Modo repeticion: un checkbox que cuando esta activo, la cancion se repetirá eternamente.
-+2 Aleatorio:: un botón que al presionarlo reproduzca una canción aleatoriamente.
-+5 Medidor de progreso de la canción: Implementa un slider o progress bar que se complete a medida que la cancion se reproduce.
+## 😎 ¿Te sientes con confianza?
+
+Las siguientes características no son necesarias para la solución final, pero puedes desarrollarlas si te sientes lo suficientemente confiado:
+
+- `+1` Implementa control de volumen: dos botones, uno para subir y otro para bajar el volumen.
+- `+1` Botón de modo repetición: cuando esté activado, la canción actual se repetirá indefinidamente hasta ser desactivado.
+- `+2` Funcionalidad de reproducción aleatoria: las canciones se reproducirán de forma aleatoria en lugar de en orden.
+- `+5` Implementa una barra de progreso con slider: la barra se moverá conforme a la canción y, si se hace clic, la canción saltará a ese tiempo.
