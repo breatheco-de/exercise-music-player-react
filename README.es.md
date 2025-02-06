@@ -18,7 +18,7 @@ b) Si estas trabajando localmente escribe el siguiente comando en tu terminal: `
 
 ## 📝 Requisitos:
 
-- Listar las canciones de [esta API](https://playground.4geeks.com/apis/fake/sound/) utilizando la Fetch API,
+- Listar las canciones de [esta API](https://playground.4geeks.com/apis/fake/sound/docs) utilizando la Fetch API,
 - Cuando el usuario hace clic en una canción, el player (reproductor) debe comenzar a reproducirla.
 - Cuando el usuario hace clic en el botón "siguiente", el reproductor debe comenzar a reproducir la siguiente canción de la lista, si no hay una canción siguiente, debe comenzar     nuevamente a reproducir la primera canción de la lista, lo mismo aplica para el botón "anterior".
 - Usa el atributo reaccionar ref de react para obtener la etiqueta o tag de audio del DOM.
