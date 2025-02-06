@@ -22,11 +22,12 @@ $ git clone https://github.com/4GeeksAcademy/react-hello
 
 💡 Importante: Recuerda crear un nuevo repositorio, actualizar el remoto (`git remote set-url origin <tu nueva url>`), y subir el código a tu nuevo repositorio utilizando `add`, `commit` y `push`.
 
+
 </onlyfor>
 
 ## 📝 Requisitos
 
-- Lista las canciones desde [la API de Sounds](https://playground.4geeks.com/sound) usando la API Fetch.
+- Lista las canciones desde [la API de Sounds](https://playground.4geeks.com/sound/docs) usando la API Fetch.
 - Cuando el usuario haga clic en una canción, el reproductor debe comenzar a reproducirla.
 - Cuando el usuario haga clic en el botón "siguiente", el reproductor debe empezar a reproducir la siguiente canción de la lista. Si no hay más canciones, debe comenzar de nuevo reproduciendo la primera canción de la lista. Lo mismo aplica para el botón "anterior".
 - Usa el atributo `ref` de React para obtener la etiqueta `<audio>` del DOM.
