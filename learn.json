@@ -1,9 +1,15 @@
 {
-	"title" : "Audio player like Spotify with React.js",
+	"title" : {
+		"us": "Audio player like Spotify with React.js",
+		"es": "Reproductor de audio como Spotify con React.js"
+	},
 	"slug" : "music-player-react",
 	"status": "published",
 	"translations": ["es", "us"],
-	"description" : "Use the audio tag to create your own music player",
+	"description" : {
+		"us": "Create your own music player using the HTML audio tag. Implement basic features like Play, Pause, Next, and Previous buttons. Make the buttons fixed at the bottom and use React's ref to control the audio tag. Add extra features like volume control, repeat mode, shuffle, and timeline slider for a better experience.",
+		"es": "Crea tu propio reproductor de música usando la etiqueta de audio HTML. Implementa funciones básicas como los botones de Reproducir, Pausar, Siguiente y Anterior. Haz que los botones permanezcan fijos en la parte inferior y usa el ref de React para controlar la etiqueta de audio. Agrega funciones adicionales como control de volumen, modo repetición, aleatorización y una barra deslizante de tiempo para mejorar la experiencia."
+	},
 	"solution": "https://codesandbox.io/s/media-player-solution-tsnnv",
 	"preview": "https://github.com/breatheco-de/exercise-music-player-react/blob/master/thumb.png?raw=true",
 	"difficulty": "intermediate",
@@ -15,5 +21,8 @@
     "projectType": "project",
 	"talents": [
 		{ "badge": "tag-master", "points": 10 }
-	]
+	],
+	"telemetry": {
+	  "batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry?asset_id=207"
+	  }
 }
